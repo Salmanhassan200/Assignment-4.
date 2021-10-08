@@ -1,0 +1,42 @@
+void main (){
+  
+  
+  //  Question # 8
+  
+  
+   var dog1 = dog();
+   dog1.breed = "Golden Retrive";
+   dog1.color = "black";
+   dog1.bark();
+   dog1.eat();
+  
+   var cat1 = cat();
+   cat1.age = 12;
+   cat1.color ="white";
+   cat1.eat();
+   cat1.meow();
+}
+class Animal{
+   String color = "black" ;
+  
+   void eat(){
+    print ("eat");
+  }
+  
+  }
+
+class dog extends Animal {
+   String breed = "Golden Retrive";
+  
+ void bark(){
+    print ("bark");
+  }
+}
+
+class cat extends Animal{
+   int age = 12;
+ 
+ void meow(){
+   print ("meow");
+  }
+}

@@ -1,0 +1,21 @@
+void main (){
+  var obj=  Study();
+  
+  // Question # 7
+  
+  
+}
+  class Study{
+  Study(){
+    
+    String name = "Aftab";
+    
+    int age = 21;
+    
+    String education = "Intermadiate";
+    
+    print("My name is ${name}");
+    print("i am ${age} years old");
+    print("Completed ${education}");
+  }
+}

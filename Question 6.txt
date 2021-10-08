@@ -1,0 +1,20 @@
+
+void main(){
+  //Q6
+  
+  var student1 = student();
+  student1.id = 21;
+  student1.name=("Aftab");
+  print("My name is ${student1.name} & My age is ${student1.id}");
+
+  
+  
+  
+}
+class student {
+  
+  int id = 21 ;
+  String name = "Aftab";
+
+  
+ }

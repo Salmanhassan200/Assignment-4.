@@ -1,0 +1,30 @@
+void main () {
+   
+  // Question # 4
+ 
+  
+  var abc =["Salman","Akhter","Hassan","Asadullah","Aslam"];
+  var abcd =[99,81,71,63,34];
+  for (var i=0; i<abc.length; i++) {
+    Calculation(abc[i],abcd[i]);
+  }
+}
+void Calculation (var abc,num abcd){
+  print("Student Name  :  ${abc}");
+  print ("Student Percentage is ${abcd}%");
+  if (abcd >= 99 ){
+    print("A+ Grade");
+  }else if (abcd >= 80 && abcd < 90){
+    print("A Grade");
+  }
+  else if (abcd >= 70 && abcd < 80){
+    print ("B Grade");
+  }
+else if (abcd >= 60 && abcd < 70){
+  print ("Grade C");
+}
+  else {
+    print ("Fail");
+    print ("Every perfectionist start from fail so need to work more harder");
+  }
+}

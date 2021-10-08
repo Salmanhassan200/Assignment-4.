@@ -1,0 +1,22 @@
+void main () {
+   
+  // Question # 5
+  
+     var salman = matric_student();
+  salman.id =101;
+  salman.name =("Aftab");
+  print("The number of id is ${salman.id} and name  ${salman.name}");
+  salman.study();
+  
+  
+}
+class matric_student {
+  
+  int id = 101;
+  String name = "Aftab";
+
+   dynamic study(){
+   
+     print ("${this.name} is now studing");}
+  
+ }
